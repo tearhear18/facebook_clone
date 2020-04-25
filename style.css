@@ -1,0 +1,88 @@
+body{
+	color: #333;
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	-webkit-font-smoothing: subpixel-antialiased
+}
+header{
+
+	background: #3f5d9a;
+	height: 84px;
+}
+.header-wrapper{
+	height: 84px
+}
+.header-wrapper img{
+	height: 34px;
+	width: auto;
+}
+.header-wrapper .login-wrapper{
+	height: 34px;
+
+}
+.main-container{
+	min-height: 600px;
+	background: #edf0f5;
+}
+.fb-h7{
+	color: #333;
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.26;
+    font-weight: normal;
+}
+.fb-h8{
+	color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.fb-reg-field{
+	border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.fb-label{
+	font-size: 12px;
+	color: #fff;
+	padding:0;
+	margin:0;
+}
+.fb-field{
+	border: 1px solid #1d2a5b;
+    width: 142px;
+    -webkit-appearance: none;
+	font-size: 12px;
+    padding: 3px;
+    margin:0;
+}
+.fb-button{
+	background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+footer{
+	background: #fff;
+	height: 190px;
+}
