@@ -42,7 +42,12 @@ header{
     line-height: 1.2;
     margin-bottom: 5px;
 }
-
+.fb-caption{
+	color: #777;
+	padding:0;
+	margin:0;
+	font-size: 11px;
+}
 .fb-reg-field{
 	border: 1px solid #bdc7d8;
     border-radius: 5px;
@@ -50,7 +55,16 @@ header{
     font-size: 18px;
     padding: 8px 10px;
 }
-
+.fb-select{
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+.fb-label-2{
+	color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
 .fb-label{
 	font-size: 12px;
 	color: #fff;
@@ -64,6 +78,69 @@ header{
 	font-size: 12px;
     padding: 3px;
     margin:0;
+}
+.fb-higlights{
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding: 42px 0 24px;
+    text-rendering: optimizelegibility;
+    width: 456px;
+}
+.fb-static-assets.fb-search{
+	background-position: 0 0;
+	width: 56px;
+    height: 56px;
+}
+.fb-static-assets.fb-share{
+	background-position: 0 -114px;
+	width: 56px;
+    height: 56px;
+}
+.fb-static-assets.fb-img{
+	background-position: 0 -57px;
+	width: 56px;
+    height: 56px;
+}
+.fb-static-assets{
+	background: url("./images/icon.png") no-repeat;
+    background-size: 57px 253px;
+
+}
+.fb-text{
+	color: #333;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-right: 2px;
+}
+.fb-btn-reg{
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    font-size: 19px;
+    color: #fff;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
 .fb-button{
 	background-color: #4267b2;
@@ -84,5 +161,9 @@ header{
 }
 footer{
 	background: #fff;
-	height: 190px;
+	height: auto;
+}
+.language-selection{
+	color: #737373;
+	font-size: 12px;
 }
